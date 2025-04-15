@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/TechMe_MuteMate/" element={<Home />} />
         <Route path="/TechMe_MuteMate/features" element={<Features />} />
         <Route path="/TechMe_MuteMate/about" element={<About />} />
         <Route path="/TechMe_MuteMate/download" element={<Download />} />
