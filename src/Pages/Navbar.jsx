@@ -10,11 +10,11 @@ export default function Navbar() {
   };
 
   const navLinks = [
-    { path: "/TechMe_MuteMate/", label: "Home" },
-    { path: "/TechMe_MuteMate/features", label: "Features" },
-    { path: "/TechMe_MuteMate/about", label: "About Us" },
-    { path: "/TechMe_MuteMate/download", label: "Download" },
-    { path: "/TechMe_MuteMate/support", label: "Support" },
+    { path: "/", label: "Home" },
+    { path: "/features", label: "Features" },
+    { path: "/about", label: "About Us" },
+    { path: "/download", label: "Download" },
+    { path: "/support", label: "Support" },
   ];
 
   return (
