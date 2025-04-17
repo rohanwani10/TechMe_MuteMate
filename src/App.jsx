@@ -14,13 +14,13 @@ function App() {
     <HashRouter>
       <Navbar />
       <Routes>
-        <Route path="/TechMe_MuteMate/" element={<Home />} />
-        <Route path="/TechMe_MuteMate/features" element={<Features />} />
-        <Route path="/TechMe_MuteMate/about" element={<About />} />
-        <Route path="/TechMe_MuteMate/download" element={<Download />} />
-        <Route path="/TechMe_MuteMate/support" element={<Support />} />
-        <Route path="/TechMe_MuteMate/privacyandpolicy" element={<PrivacyAndPolicy />} />
-        <Route path="/TechMe_MuteMate/termsandcondition" element={<Terms />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/features" element={<Features />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/download" element={<Download />} />
+        <Route path="/support" element={<Support />} />
+        <Route path="/privacyandpolicy" element={<PrivacyAndPolicy />} />
+        <Route path="/termsandcondition" element={<Terms />} />
       </Routes>
       <Footer />
     </HashRouter>
