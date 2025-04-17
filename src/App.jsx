@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Features from "./Pages/Features";
 import About from "./Pages/About";
@@ -11,7 +11,7 @@ import Footer from "./Pages/Footer";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/TechMe_MuteMate/" element={<Home />} />
@@ -23,7 +23,7 @@ function App() {
         <Route path="/TechMe_MuteMate/termsandcondition" element={<Terms />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
