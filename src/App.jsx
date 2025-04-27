@@ -22,7 +22,7 @@ function App() {
         <Route path="/support" element={<Support />} />
         <Route path="/privacyandpolicy" element={<PrivacyAndPolicy />} />
         <Route path="/termsandcondition" element={<Terms />} />
-        <Route path="/Guidlines" element={<Guidlines />} />
+        <Route path="/guidelines" element={<Guidlines />} />
       </Routes>
       <Footer />
     </HashRouter>
