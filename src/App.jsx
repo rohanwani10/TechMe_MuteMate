@@ -22,8 +22,7 @@ function App() {
         <Route path="/support" element={<Support />} />
         <Route path="/privacyandpolicy" element={<PrivacyAndPolicy />} />
         <Route path="/termsandcondition" element={<Terms />} />
-
-        <Route path="*" element={<Guidlines />} />
+        <Route path="/Guidlines" element={<Guidlines />} />
       </Routes>
       <Footer />
     </HashRouter>
